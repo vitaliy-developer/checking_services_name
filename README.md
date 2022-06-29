@@ -1,4 +1,4 @@
-# Checking services name
+# Bash script to remotely execute commands from a list of IP addresses
 This program is for remote checking (of some files or folders) on your servers
 This program was created to remotely check logs on N numbers of servers.
 If we have different users and passwords, the program substitutes the required user and password for our IP. And it executes the command we need, and writes the output to our project.
