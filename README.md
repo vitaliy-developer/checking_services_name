@@ -13,5 +13,6 @@ If we have different users and passwords, the program substitutes the required u
 
 For convenience, we add our scripts to the crontab:
 
-30 22 * * *  sh /home/user1/checking_services_name/checking_logs_services_1.sh >> /home/user1/checking_services_name/output_correct_error_services_1
-33 22 * * *  sh /home/user1/checking_services_name/checking_logs_services_2.sh >> /home/user1/checking_services_name/output_correct_error_services_2
+* 30 22 * * *  sh /home/user1/checking_services_name/checking_logs_services_1.sh >> /home/user1/checking_services_name/output_correct_error_services_1
+
+* 33 22 * * *  sh /home/user1/checking_services_name/checking_logs_services_2.sh >> /home/user1/checking_services_name/output_correct_error_services_2
