@@ -2,6 +2,8 @@
 This program is for remote checking (of some files or folders) on your servers
 This program was created to remotely check logs on N numbers of servers.
 If we have different users and passwords, the program substitutes the required user and password for our IP. And it executes the command we need, and writes the output to our project.
+* sh /home/user1/checking_services_name/checking_logs_services_*.sh // script launch path from our project
+* "ls -lah /home/user2/folder_services_name/seg*/service_name*/logs/" // run this command on remote servers
 * lists/us // here is your list of users
 * lists/pass // here is your list of passwords for your users
 * lists/ip_list //this is the first IP list
